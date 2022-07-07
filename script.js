@@ -14,7 +14,7 @@ function guessNumber()
         var num = parseInt(document.getElementById('in').value);
         if (num === randomnum)
         {
-            document.getElementById('out').innerHTML = '<i><b>You guessed the answer correctly in'+ guess + ' guesses!<b></i>';
+            document.getElementById('out').innerHTML = '<i><b>You guessed the answer correctly in '+ guess + ' guesses!<b></i>';
         }
         else if (num > randomnum)
         {
